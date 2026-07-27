@@ -34,4 +34,4 @@ Credit: Thank you to Pinterest for providing the background for the project!
 
 
 ## 🧭 Navigation Hub 
-[← Back to Pages](https://github.com/Kalecia24824/Web/Pages) | [← Back to Web](https://github.com/Kalecia24824/Web) | [← Back to Main](https://github.com/Kalecia24824)
+[← Back to Pages](https://github.com/Kalecia24824/Web/Pages/README.md) | [← Back to Web](https://github.com/Kalecia24824/Web) | [← Back to Main](https://github.com/Kalecia24824)
