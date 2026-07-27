@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My StarCafe Form</title>
+    <link rel="stylesheet" href="./styles.css"/>
+  </head>
+  <body>
+    <header>
+      <h1>Star Cafe Order Form</h1>
+      <p>Please add your info for an order today at the Star Cafe!</p>
+    </header>
+ 
+    <main>
+      <form action="/Web/Pages/StarCafe-Form/index.html" method="post">
+        <div class="name-input">
+          <p>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+          </p>
+          <p>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </p>
+        </div>
+
+        <div class="drink">
+          <p>What do you like to drink today? Choose one</p>
+          <p>
+            <input type="radio" id="coffee" name="drink" value="coffee"/>
+            <label for="coffee">Coffee</label>
+          </p>
+
+          <p>
+            <input type="radio" id="tea" name="drink" value="tea"/>
+            <label for="tea">Tea</label>
+          </p>
+
+          <p>
+            <input type="radio" id="juice" name="drink" value="juice"/>
+            <label for="juice">Juice</label>
+          </p>
+
+            <p class="label">
+              <label for="drink-notes">Based on the option above, please list your type and preferences:</label><br>
+              <textarea id="drink-notes" name="drink-notes" rows="3" cols="30"></textarea>
+            </p>
+        </div>
+
+        <div class="food">
+          <p>What would you like to eat today? Choose one</p>
+          <select name="food" id="food">
+            <option value=""></option>
+            <option value="toast">Toast (Jam)</option>
+            <option value="croissant">Croissant</option>
+            <option value="hash-brown">Hashbrown</option>
+            <option value="donut">Donut</option>
+            <option value="fruit-bowl">Fruit Bowl</option>
+          </select><br>
+
+            <p class="label">
+              <label for="food-notes">Based on the option above, please list your type and preferences:</label><br>
+              <textarea id="food-notes" name="food-notes" rows="3" cols="30"></textarea>
+            </p>
+        </div>
+
+        <p>
+          <button type="submit" onclick="alert('Thank you, your order is received!')">Submit Form</button>
+        </p>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; Made by Kalecia McNeal, 2026. All rights are reserved.</p>
+      <p>All images come from Pinterest.</p>
+    </footer>
+  </body>
+</html>

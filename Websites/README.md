@@ -8,6 +8,11 @@ Here are some of my languages I use while building these apps:
 - CSS
 - JavaScript
 
+Some of technical tools I use: 
+- Google Chrome Browser 
+- Visual Studio Code 
+- Chrome Dev Tools 
+
 ## 📁 Projects
 Here is the directory for all of my projects in the Websites Subfolder 
 | Project | Description | Tech Used | Live Demo |
@@ -16,8 +21,5 @@ Here is the directory for all of my projects in the Websites Subfolder
 
 Thank you for viewing my portfolio!
 
-## 🌐 Back to Web Homepage
-[← Back to Web](https://github.com/Kalecia24824/Web)
- 
-## 🏠 Back to Main Portfolio
-[← Back to Main](https://github.com/Kalecia24824)
+## 🧭 Navigation Hub 
+[← Back to Web](https://github.com/Kalecia24824/Web) | [← Back to Main](https://github.com/Kalecia24824)

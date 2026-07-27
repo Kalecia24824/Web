@@ -1,0 +1,85 @@
+/*Imported fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+html{
+  background: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 660px;
+  width: 550px;
+  background: linear-gradient(to bottom, rgb(35, 1, 182), rgb(191, 0, 254), rgb(255, 0, 204));
+  border-radius: 20px;
+}
+
+header{
+  padding: 15px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+main{
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main, div{
+  padding: 15px;
+  margin-top: -10px;
+  font-size: 16px;
+}
+
+select, p{
+  padding-bottom: 5px;
+}
+
+.label{
+  padding-top: 10px;
+}
+
+input{
+  border-radius: 5px;
+  font-size: 15px;
+  margin-left: 2px;
+}
+
+textarea{
+  border-radius: 5px;
+  font-size: 15px;
+  padding-top: 2px;
+}
+
+button{
+  font-size: 15px;
+  border-radius: 5px;
+  border: 2px solid black; 
+  margin-left: 14px;
+  padding: 5px;
+  background-color: rgb(9, 9, 78);
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(254, 0, 157);
+}
+footer{
+  padding: 25px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

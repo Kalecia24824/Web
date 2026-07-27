@@ -2,11 +2,16 @@
 #### by Kalecia McNeal
 Welcome to the Pages subsection of the Web folder! Here you can find all of my single and static page web projects. 
 
-## 🧰 Tech Used in This Category
-Here are some of my languages I use while building these apps: 
+## 🧰 Tech and Tools Used
+Languages I use while coding: 
 - HTML
 - CSS
 - JavaScript
+
+Tools I use while coding: 
+- Google Chrome Browser 
+- Visual Studio Code 
+- Chrome Dev Tools 
 
 ## 📁 Projects
 Here is the directory for all of my projects in the Pages Subfolder 
@@ -20,8 +25,5 @@ Here is the directory for all of my projects in the Pages Subfolder
 
 Thank you for viewing my portfolio!
 
-## 🌐 Back to Web Homepage
-[← Back to Web](https://github.com/Kalecia24824/Web)
- 
-## 🏠 Back to Main Portfolio
-[← Back to Main](https://github.com/Kalecia24824)
+## 🧭 Navigation Hub 
+[← Back to Web](https://github.com/Kalecia24824/Web) | [← Back to Main](https://github.com/Kalecia24824)
