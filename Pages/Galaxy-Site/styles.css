@@ -1,0 +1,143 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+html{
+  background-image: url("https://i.pinimg.com/1200x/da/c2/12/dac21266790350997eaa339db2df1cbf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 8px;
+  padding: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+h1{
+  font-size: 32px;
+  padding-bottom: 5px;
+}
+
+header p{
+  font-size: 17px;
+  padding-bottom: 15px; 
+}
+
+.container{
+  display: flex; 
+  flex-wrap: wrap;
+  flex: 1 1 250px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  max-width: 900px;
+  padding: 20px; 
+}
+
+.pricing-card{
+  padding: 30px;
+  text-align: center;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between; 
+}
+
+.one{
+  background-color: rgb(118, 118, 255);
+  border: 5px solid blue; 
+  border-radius: 15px; 
+}
+
+.two{
+  background-color: rgb(228, 138, 255); 
+  border: 5px solid rgb(208, 0, 255); 
+  border-radius: 15px;
+}
+
+.three{
+  background-color: rgb(255, 142, 234);
+  border: 5px solid rgb(255, 0, 200); 
+  border-radius: 15px; 
+}
+
+.card-header{
+  display: flex; 
+  align-items: center; 
+  gap: 12px;
+}
+
+.card-title h2, .card-title p{
+  text-align: center;
+}
+
+h2, p{
+  text-align: center;
+}
+
+.services{
+  list-style-type: none;
+  padding: 0; 
+  text-align: left;
+}
+
+li{
+  padding: 5px 0; 
+  font-size: 14px;
+  display: flex; 
+  align-items: center;
+  gap: 8px; 
+  font-weight: 500;
+}
+
+button{
+  padding: 10px; 
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  color: white; 
+}
+
+.one button{
+  background-color: rgb(7, 7, 232); 
+}
+
+.two button{
+  background-color: rgb(193, 0, 237);
+}
+
+.three button{
+  background-color: rgb(255, 27, 175); 
+}
+
+footer{
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  float: left; 
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0; 
+}

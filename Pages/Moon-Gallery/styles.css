@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+html{
+  min-height: 100vh;
+  min-width: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  margin: 0; 
+  background-color: rgb(31, 0, 93);
+}
+
+header{
+  width: 100vw;
+  text-align: center;
+  padding: 35px;
+  background-color: rgb(49, 0, 86);
+  color: rgb(200, 0, 255);
+  border-bottom: 5px solid rgb(230, 148, 255);
+}
+
+h1{
+  font-size: 38px;
+}
+
+p{
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+footer{
+  font-size: 20px;
+  color: white;
+}
+
+.gallery{ /*Parent container*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img{
+  width: 100%; /*takes full width of container*/
+  max-width: 350px; /*maxi width of images*/
+  height: 300px;
+  object-fit: cover; /*makes image fit*/
+  border-radius: 30px;
+}
+
+.gallery::after { /*helps move images equally*/
+  content: ""; /*Used to initialize settings*/
+  width: 350px;
+}

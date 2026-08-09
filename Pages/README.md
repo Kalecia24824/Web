@@ -20,8 +20,8 @@ Here is the directory for all of my projects in the Pages Subfolder
 | [All About Me](./About-Me/README.md) | A simple webpage about me | HTML, CSS | [Live Demo Soon](#) |
 | [StarCafe Form](./StarCafe-Form/README.md) | An interactive form | HTML, CSS | [Live Demo Soon](#) |
 | [Moon Gallery](./Moon-Gallery/README.md) | A gallery of moon pictures | HTML, CSS | [Live Demo Soon](#) |
+| [Galaxy Site](./Galaxy-Site/README.md) | A pricing plan for galaxy web services | HTML, CSS | [Live Demo Soon](#) |
 | [Star Card](./Star-Card/README.md) | A starry profile card | HTML, CSS | [Live Demo Soon](#) |
-| [Cloud Nav](./Cloud-Nav/README.md) | A navigation menu of clouds | HTML, CSS | [Live Demo Soon](#) |
 
 Thank you for viewing my portfolio!
 
