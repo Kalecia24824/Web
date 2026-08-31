@@ -1,0 +1,78 @@
+:root, :root.daytime {
+  --color-bg: linear-gradient(to top, #efe486, #ffc565, #ffa059, #ff7662, #ff457c);
+  --color-fg: #000000;
+  --btn-bg: #fde025;      /* new: day button background */
+  --btn-text: #000000;    /* new: day button text */
+} /*Theme for day*/
+
+:root.nighttime {
+  --color-bg: linear-gradient(to bottom, #340C89, #5114AB, #7A17D6, #AF41FF, #EE53FF);
+  --color-fg: #ffffff;
+  --btn-bg: #2a0a5e;      /* new: night button background — pick any color you like */
+  --btn-text: #ffffff;    /* new: night button text */
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+}
+
+html{
+  min-height: 100vh
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  min-height: 100vh;
+  transition: background 0.4s ease, color 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  gap: 80px;
+}
+
+#theme-toggle {
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  font-size: 25px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.4s ease, color 0.4s ease;
+  text-align: center;
+}
+
+img{
+  position: relative; 
+  width: 30px;
+  top: 5px;
+  right: 5px;
+}
+
+@media (min-width: 200px){
+  img{
+    width: 30px;
+    position: relative; 
+    bottom: 2px;
+    margin-left: 5px;
+  }
+
+  body{
+    padding: 20px;
+  }
+
+  #theme-toggle{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+    padding-left: 10px;
+  }
+}
